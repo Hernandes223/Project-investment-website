@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Project-investment-website/static/css/main.5f3bcb28.css",
-    "main.js": "/Project-investment-website/static/js/main.d096693d.js",
+    "main.js": "/Project-investment-website/static/js/main.1f25f113.js",
     "static/js/453.8c0c794c.chunk.js": "/Project-investment-website/static/js/453.8c0c794c.chunk.js",
     "static/media/banner.png": "/Project-investment-website/static/media/banner.abb4fdd63af91d8ec05f.png",
     "index.html": "/Project-investment-website/index.html",
     "main.5f3bcb28.css.map": "/Project-investment-website/static/css/main.5f3bcb28.css.map",
-    "main.d096693d.js.map": "/Project-investment-website/static/js/main.d096693d.js.map",
+    "main.1f25f113.js.map": "/Project-investment-website/static/js/main.1f25f113.js.map",
     "453.8c0c794c.chunk.js.map": "/Project-investment-website/static/js/453.8c0c794c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f3bcb28.css",
-    "static/js/main.d096693d.js"
+    "static/js/main.1f25f113.js"
   ]
 }
