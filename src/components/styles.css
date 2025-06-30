@@ -1,0 +1,183 @@
+.landing-page {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.section-1 {
+  background-image: url('../../public/images/banner.png');
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.section-1 h1 {
+  margin-bottom: 20px;
+}
+
+.section-1 p {
+  margin-top: 20px;
+}
+
+.section-2 {
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.section-3 {
+  padding: 20px;
+  border-bottom: 1px solid #000;
+}
+
+.subsection-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subsection-1 .text-left {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.subsection-1 .image-right {
+  width: 50%;
+}
+
+.image-1 {
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.text-left {
+  width: 50%;
+}
+
+.image-right {
+  width: 50%;
+}
+
+.subsection-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subsection-2 .text-right {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.subsection-2 .image-left {
+  width: 50%;
+}
+
+.image-2 {
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.image-left {
+  width: 50%;
+}
+
+.text-right {
+  width: 50%;
+}
+
+.section-4 {
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 500px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.cards.showEvent {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-5 {
+  padding: 80px;
+  background-color: #c0e6e9 ;
+}
+
+form {
+  display: flex;
+}
+
+.subsection-1, .subsection-2 {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.subsection-1.showEvent, .subsection-2.showEvent {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.button-center {
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-center:hover {
+  background-color: #3e8e41;
+}
+
+.card-button-center {
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 80%;
+}
+
+.card-button-center:hover {
+  background-color: #3e8e41;
+}
+
+

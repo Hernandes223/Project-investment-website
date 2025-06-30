@@ -1,0 +1,33 @@
+/* Menu.css */
+.menu {
+  background-color: #468117; /* Verde */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu .logo {
+  margin-right: 10px;
+}
+
+.menu .logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.menu .links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu .links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.menu .links a:hover {
+  color: #ccc;
+}
