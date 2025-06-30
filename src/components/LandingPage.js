@@ -8,7 +8,6 @@ const LandingPage = () => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const subsection1 = document.querySelector('.subsection-1');
-      const subsection2 = document.querySelector('.subsection-2');
 
       if (scrollTop > subsection1.offsetTop - window.innerHeight / 2) {
         setShowEvent(true);
@@ -71,12 +70,12 @@ A boa notícia é que com estudo, orientação adequada e uma estratégia clara,
             <p>Gráficos são representações visuais de dados que facilitam a compreensão de informações complexas. Eles ajudam a identificar padrões, tendências e variações de forma rápida e intuitiva. No contexto financeiro, os gráficos são ferramentas essenciais para analisar o comportamento de investimentos, comparações de desempenho e projeções de crescimento. Com eles, é possível tomar decisões mais assertivas com base em dados visuais e objetivos.</p>
           </div>
           <div className="image-right">
-            <img src="../images/grafico.png" alt="Imagem 1" className='image-1'/>
+            <img src="images/grafico.png" alt="Imagem 1" className='image-1'/>
           </div>
         </div>
         <div className={`subsection-2 ${showEvent ? 'showEvent' : ''}`}>
           <div className="image-left">
-            <img src="../images/robocopy.png" alt="Imagem 2" className='image-2'/>
+            <img src="images/robocopy.png" alt="Imagem 2" className='image-2'/>
           </div>
           <div className="text-right">
             <p>Um robô de copy trader é uma ferramenta automatizada que replica, em tempo real, as operações feitas por traders experientes. Com ele, mesmo quem não tem conhecimento avançado em investimentos pode seguir estratégias de profissionais de forma simples e segura. O robô conecta sua conta à de um trader escolhido, copiando suas entradas, saídas e alocação de capital, tudo de forma automatizada. É uma solução prática para quem busca aproveitar oportunidades no mercado sem precisar operar manualmente.</p>

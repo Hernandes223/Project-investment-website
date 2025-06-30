@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <div className="menu">
       <div className="logo">
-        <img src='../images/logo.png' alt="Logo"/>
+        <img src='images/logo.png' alt="Logo"/>
       </div>
       <div className="links">
         <a href="#planos">Planos</a>
